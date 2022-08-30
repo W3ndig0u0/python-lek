@@ -1,2 +1,5 @@
-print("välkommen ")
-print("2 * 3 = ", 2*3)
+num = 2*3
+string = "välkommmen"
+
+print(string)
+print(str(num), " (string) =", num, " (int)")
