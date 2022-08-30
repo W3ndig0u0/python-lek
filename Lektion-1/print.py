@@ -1,5 +1,10 @@
-num = 2*3
-string = "välkommmen"
+welcome = "välkommmen"
+name = "vad är ditt namn"
+ques = "Vilka två siffror vill du addera"
+nameAnswer = None
+ques2 = "Hejsan,"
 
-print(string)
-print(str(num), " (string) =", num, " (int)")
+print(welcome)
+print(name)
+nameAnswer = input()
+print(ques2, nameAnswer)
