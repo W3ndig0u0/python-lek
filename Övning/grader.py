@@ -1,4 +1,5 @@
 skala = input("Skala: ")
+skala = skala.lower()
 
 
 # !Celse => Fahr
@@ -18,9 +19,9 @@ def FahrConverter():
 
 
 # !Logik
-if skala == "Farenheit":
+if skala == "farenheit":
     CelsConverter()
-elif skala == "Celsius":
+elif skala == "celsius":
     FahrConverter()
 else:
     print("Du valde inte Celsuis eller Farenheit")
