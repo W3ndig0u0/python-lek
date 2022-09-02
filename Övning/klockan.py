@@ -1,7 +1,6 @@
-
-hour = int(print("Klocka: "))
-minutes = int(print("Minuter: "))
-toAdd = int(print("Minuter att addera: "))
+hour = int(input("Klocka: "))
+minutes = int(input("Minuter: "))
+toAdd = int(input("Minuter att addera: "))
 
 afterMidnight = hour * 60 + minutes + toAdd
 
